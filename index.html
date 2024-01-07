@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master</title>
+    <link rel="icon" href="logo.jpg" sizes="=32x32">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&family=Sigmar&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+            <img src="logo.jpg" class="img img-md rounded-circle logo" alt="">
+            <button class="navbar-brand ml-3 text-light nav-btn" id="home1">Quiz Master </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapse"
+                aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mr-3" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <button class="nav-link text-light btn nav-btn" id="home"><span class="fas fa-home"></span>
+                            Home</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link text-light btn nav-btn" id="about"><span
+                                class="fas fa-info-circle"></span>
+                            About us</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link text-light btn nav-btn" id="quizzes"><span
+                                class="fas fa-question-circle"></span> Quizzes</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section id="home_page" class="section">
+        <div class="header">
+            <div class="container-fluid  mt-5">
+                <div class="jumbotron">
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <h1 class="text text_header text-light">Quiz <span class="text header-span">Master</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row header_button">
+                    <div class="col-md-12">
+                        <button type="button" href="#page_quizzes" id="getStart"
+                            class="button-start">Get Start</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page_about" class="section">
+        <div class="about">
+            <div class="container-fluid">
+                <div class="jumbotron">
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <h1 class="text header_about text-light">About <span class="text header-span">Us</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-md-6">
+
+                        </div>
+                        <div class="col-md-6">
+                            <p class="text text-light text_about">
+                                Welcome to Quiz Master, your go-to destination for engaging quizzes and trivia!
+                                At Quiz Master, we are passionate about creating a fun and educational
+                                experience for users of all ages. Our team is dedicated to developing an
+                                interactive platform that challenges your knowledge, sparks curiosity, and
+                                fosters a sense of community.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="jumbotron">
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <h2 class="text mission_about text-light ml-5">Our <span class="text header-span">Mission</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">   
+                        </div>
+                        <div class="col-md-6">
+                            <p class="text text-light text_about">
+                                Our mission is to provide a diverse range of high-quality quizzes that cater to
+                                various
+                                interests and topics. We believe in the power of knowledge to inspire,
+                                entertain,
+                                and
+                                bring people together. Through our quizzes, we aim to create an enjoyable space
+                                where
+                                learning is exciting, and users can discover fascinating facts in an interactive
+                                way.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="quizzes">
+            <div class="row no-gutters">
+                <div class="col-md-3 mt-5">
+                    <div class="category">
+                        <div class="border-title">
+                            <h1 class="text text-light">Category</h1>
+                        </div>
+                        <div class="form-buttons">
+                            <div class="category-buttons">
+                                <button class="btn buttons" id="category-buttons" onclick="general()">General
+                                    Question</button>
+                                <button class="btn buttons" id="category-buttons" onclick="math()">Math
+                                    Question</button>
+                                <button class="btn buttons" id="category-buttons" onclick="science()">Science
+                                    Question</button>
+                                <button class="btn buttons" id="category-buttons" onclick="programming()">Programming
+                                    Question</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5" id="page_quizzes">
+                    <div class="form-quiz">
+                        <div class="border-title">
+                            <h1 class="text text-light">Quiz Master</h1>
+                        </div>
+                        <div class="form-questions">
+                            <div class="questions_container">
+                                <div class="count-down" id="countdown"></div>
+                                <div class="questions">
+                                    <textarea disabled readonly id="questions" cols="50" rows="10"
+                                        class="text">Select category to start the game</textarea>
+                                    <p id="correction"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="answer-button">
+                            <button value="A" class="choices btn">A <span id="btn-A"></span></button>
+                            <button value="B" class="choices btn">B <span id="btn-B"></span></button>
+                            <button value="C" class="choices btn">C <span id="btn-C"></span></button>
+                            <button value="D" class="choices btn">D <span id="btn-D"></span></button>
+                        </div>
+                        <div class="progress">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td id="level-1"></td>
+                                        <td id="level-2"></td>
+                                        <td id="level-3"></td>
+                                        <td id="level-4"></td>
+                                        <td id="level-5"></td>
+                                        <td id="level-6"></td>
+                                        <td id="level-7"></td>
+                                        <td id="level-8"></td>
+                                        <td id="level-9"></td>
+                                        <td id="level-10"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <div class="leader-board">
+                        <div class="border-title">
+                            <h1 class="text text-light">Score Board</h1>
+                        </div>
+                        <div class="score_board">
+                            <div class="name_container">
+                                <div class="name_title">
+                                    <h6>Name</h6>
+                                </div>
+                                <ul id="names">
+
+                                </ul>
+                            </div>
+                            <div class="category_container">
+                                <div class="category_title">
+                                    <h6>Category</h6>
+                                </div>
+                                <ul id="categories">
+
+                                </ul>
+                            </div>
+                            <div class="score_container">
+                                <div class="score_title">
+                                    <h6>Scores</h6>
+                                </div>
+                                <ul id="scores">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
